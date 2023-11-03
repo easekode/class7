@@ -42,3 +42,20 @@ var result = evenNumbers.map(function (element) {
 });
 console.log(result);
 console.log(evenNumbers);
+
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12];
+var even = numbers.filter(function (element) {
+  return element % 2 === 0;
+});
+console.log('even numbers', even);
+
+var addMe = [2, 4, 6, 8, 10];
+var sum = addMe.reduce(function (accumulator, element) {
+  console.log(accumulator);
+  return accumulator + element;
+}, 0);
+console.log(sum);
+// 2 + 4 = 6
+// 6 + 6 = 12
+// 12 + 8 = 20
+// 20 + 10 = 30
