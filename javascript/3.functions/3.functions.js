@@ -41,7 +41,7 @@ add(2, 3, function (input) {
 // threads in javascript
 
 // Restaurant
-tables : 3
+/* tables : 3
 chef : 4 (veg, non-veg, chinese, italian)
 waiter(thread): 1  
 
@@ -53,10 +53,16 @@ table3:  customer3 <-> waiter3<3rd min > takes order -> chef3 (30 mins)
 
 Javascript: single threaded language
 
-user -> ask -> javascript program -> database(se parate software, MySQL, MongoDB, Oracle)
-
-Promise:
+user -> ask -> javascript program -> database(separate software, MySQL, MongoDB, Oracle)
+ */
+// Promise:
 // 1.wait/pending  | success/resolved | failed/rejected
 
 // callback hell
 
+// call some function and get the result
+/* const add = (a, b) => {
+
+}
+
+const add1 = function() {} */
