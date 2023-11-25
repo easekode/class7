@@ -28,3 +28,4 @@ console.log(message.includes('bad'));
 console.log('Free '.repeat(5));
 
 console.log(message.split('3').length);
+console.log(`${name} scores ${score} runs`); //template literals
